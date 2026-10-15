@@ -4,6 +4,14 @@ All notable changes to this project are documented here.
 
 ## Unreleased
 
+## 0.1.21 - 2026-10-15
+
+- Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.3`, with immutable container revision `0.2.1-alpha.3-r1` and Helm chart `0.1.21`.
+- Include upstream local-HTTP account sign-in, sent-message key masking, Minimal-mode image reading and compaction, and fixes for session continuation, plugin reloads, remote Web preferences, and terminals.
+- Document the Headless credential-source change, Azure provider rename, and destructive custom-profile recreation flag.
+- Highlight the project's early unofficial Docker packaging and ongoing maintenance since August 13, 2026, with a link to the initial commit in both READMEs.
+- Retain the supervised concrete-address relay, browser-desktop `0.1.5`, optional market `1.66.9`, pinned ungoogled-chromium `152.0.7977.82-1`, and historical screenshot dates.
+
 ## 0.1.20 - 2026-10-09
 
 - Adapt to upstream rejecting wildcard listeners at the configuration layer: keep DSH on loopback and relay one concrete container interface without rewriting authentication or modifying upstream source. Add address-selection, byte-preservation, half-close, and actual listener-boundary tests.
