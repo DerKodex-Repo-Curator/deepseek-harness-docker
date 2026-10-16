@@ -4,6 +4,14 @@ All notable changes to this project are documented here.
 
 ## Unreleased
 
+## 0.1.22 - 2026-10-16
+
+- Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.4`, with immutable container revision `0.2.1-alpha.4-r1` and Helm chart `0.1.22`.
+- Include UI-configured reasoning levels for custom API models and plugin discovery through custom index sources.
+- Include upstream fixes for command input, Developer Tools activation, command failure status, and Office delivery, plus faster Linux command startup and older-systemd compatibility.
+- Document `engines.dsh` taking precedence for third-party plugin compatibility, with the existing rules retained when it is absent.
+- Retain browser-desktop `0.1.5`, optional market `1.66.9`, pinned ungoogled-chromium `152.0.7977.82-1`, and the existing loopback/LAN access model.
+
 ## 0.1.21 - 2026-10-15
 
 - Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.3`, with immutable container revision `0.2.1-alpha.3-r1` and Helm chart `0.1.21`.
