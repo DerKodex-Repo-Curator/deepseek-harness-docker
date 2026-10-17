@@ -8,6 +8,7 @@ All notable changes to this project are documented here.
 
 - Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-rc.2`, with immutable container revision `0.2.1-rc.2-r1` and Helm chart `0.1.25`.
 - Include upstream DeepSeek-V4.1-Flash-1017 support and opt-in DeepSeek Search / Fetch APIs in Web Search settings; do not enable these APIs or change provider credentials automatically.
+- Refresh all three README screenshots from a real, isolated RC2 Light-theme demo, and update their capture provenance: the start page, optional community market, and browser desktop showing the official RC2 Release.
 - Retain browser-desktop `0.1.5`, optional market `1.66.9`, pinned ungoogled-chromium `152.0.7977.82-1`, and the existing authentication, loopback/LAN, and sandbox boundaries without modifying upstream source.
 
 ## 0.1.24 - 2026-10-17
