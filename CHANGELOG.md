@@ -4,6 +4,13 @@ All notable changes to this project are documented here.
 
 ## Unreleased
 
+## 0.1.24 - 2026-10-17
+
+- Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-rc.1`, with immutable container revision `0.2.1-rc.1-r1` and Helm chart `0.1.24`.
+- Track the first 0.2.1 release candidate, which consolidates this cycle's changes; the delta from alpha.5 primarily updates Cordis, HMR, loader, and related vendor dependencies.
+- Require release maintenance to refresh Light-theme README screenshots from an isolated, tested container and accurately label their runtime version and capture date.
+- Retain the browser desktop, optional community market, privacy and bubblewrap variants, and existing authentication and network boundaries without modifying upstream source.
+
 ## 0.1.23 - 2026-10-17
 
 - Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.5`, with immutable container revision `0.2.1-alpha.5-r1` and Helm chart `0.1.23`.
