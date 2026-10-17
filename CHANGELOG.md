@@ -4,6 +4,13 @@ All notable changes to this project are documented here.
 
 ## Unreleased
 
+## 0.1.23 - 2026-10-17
+
+- Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.5`, with immutable container revision `0.2.1-alpha.5-r1` and Helm chart `0.1.23`.
+- Include upstream fixes for stale skill lists after plugin toggles, redundant terminal queries and failed-terminal retries, and Page Up layout shifts on Windows and Linux.
+- Include improved PTC Mode guidance, aligned model identity prompts across SDK, Web and headless, and the `conversation.input.model.label` Slot for provider-specific model labels.
+- Retain browser-desktop `0.1.5`, optional market `1.66.9`, pinned ungoogled-chromium `152.0.7977.82-1`, and the existing loopback/LAN access model without modifying upstream source.
+
 ## 0.1.22 - 2026-10-16
 
 - Upgrade the official runtime and Browser Use packages to `@deepseek-ai/dsh@0.2.1-alpha.4`, with immutable container revision `0.2.1-alpha.4-r1` and Helm chart `0.1.22`.
